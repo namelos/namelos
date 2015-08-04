@@ -1,0 +1,25 @@
+{
+  "name": "namelos",
+  "version": "0.0.1",
+  "description": "A simple blog with io.js, koa, react, and redux",
+  "main": "namelos.js",
+  "scripts": {
+    "test": "namelos"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namelos/namelos.git"
+  },
+  "keywords": [
+    "koa",
+    "react",
+    "react",
+    "redux"
+  ],
+  "author": "namelos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/namelos/namelos/issues"
+  },
+  "homepage": "https://github.com/namelos/namelos#readme"
+}
