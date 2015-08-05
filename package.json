@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/namelos/namelos/issues"
   },
-  "homepage": "https://github.com/namelos/namelos#readme"
+  "homepage": "https://github.com/namelos/namelos#readme",
+  "dependencies": {
+    "redux": "^1.0.0-rc"
+  }
 }
