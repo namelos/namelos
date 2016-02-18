@@ -1,0 +1,31 @@
+---
+pid: 27293
+config: !ruby/object:Puma::Configuration
+  cli_options: 
+  conf: 
+  options:
+    :min_threads: 5
+    :max_threads: 5
+    :quiet: false
+    :debug: false
+    :binds:
+    - unix:///home/namelos/namelos/shared/sockets/puma.sock
+    - tcp://0.0.0.0:3000
+    :workers: 1
+    :daemon: false
+    :mode: :http
+    :worker_timeout: 60
+    :worker_boot_timeout: 60
+    :worker_shutdown_timeout: 30
+    :remote_address: :socket
+    :config_file: config/puma.rb
+    :environment: development
+    :redirect_stdout: "/home/namelos/namelos/shared/log/puma.stdout.log"
+    :redirect_stderr: "/home/namelos/namelos/shared/log/puma.stderr.log"
+    :redirect_append: true
+    :pidfile: "/home/namelos/namelos/shared/pids/puma.pid"
+    :state: "/home/namelos/namelos/shared/pids/puma.state"
+    :control_url: unix:///tmp/puma-status-1455805013304-27293
+    :control_url_temp: "/tmp/puma-status-1455805013304-27293"
+    :control_auth_token: 716e5878f670c8954d4b36ef726b6fa
+    :tag: namelos

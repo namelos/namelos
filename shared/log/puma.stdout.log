@@ -1,0 +1,18 @@
+=== puma startup: 2016-02-18 14:16:53 +0000 ===
+[27293] * Starting control server on unix:///tmp/puma-status-1455805013304-27293
+[27293] - Worker 0 (pid: 27343) booted, phase: 0
+[27343] 14.49.36.61 - - [18/Feb/2016:14:30:17 +0000] "GET /tasks HTTP/1.0" 500 45881 0.1192
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:08 +0000] "GET /tasks HTTP/1.0" 200 - 3.4976
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:08 +0000] "GET /tasks HTTP/1.0" 200 - 10.8690
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1 HTTP/1.0" 200 24817 0.0081
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /scaffolds.self-71eba216cd9e4ab2ef1a30a46da69a2fdb19b6731b6125b113853f6becfe7a4f.css?body=1 HTTP/1.0" 200 2343 0.0121
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /action_cable.self-5cc84f1a95a47f68c4e64db6ffd98e141a568a28f49b78fa82712f809692630f.js?body=1 HTTP/1.0" 200 13593 0.0058
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /cable.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0069
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /application.self-af04b226fd7202dfc532ce7aedb95a0128277937e90d3b3a3d35e1cce9e16886.css?body=1 HTTP/1.0" 200 703 0.0052
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1 HTTP/1.0" 200 31 0.0051
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1 HTTP/1.0" 200 - 0.0062
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1 HTTP/1.0" 200 294162 0.0109
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /application.self-b89234cf2659d7fedea75bca0b8d231ad7dfc2f3f57fcbaf5f44ed9dc384137b.js?body=1 HTTP/1.0" 200 662 0.0076
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:09 +0000] "GET /jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1 HTTP/1.0" 200 20815 0.0089
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:16 +0000] "GET /tasks HTTP/1.0" 200 - 0.0318
+[27343] 14.49.36.61 - - [18/Feb/2016:14:32:19 +0000] "GET /tasks/new HTTP/1.0" 200 - 0.0502
