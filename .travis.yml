@@ -1,7 +1,7 @@
-#before_script:
-#  - mysql -e 'create database namelos_test;'
 services:
   - mysql
+before_script:
+  - mysql -e 'create database namelos_test;'
 language: ruby
 rvm:
  - "2.3.0"
