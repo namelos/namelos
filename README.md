@@ -2,8 +2,8 @@
 
 * Ruby version: 2.3.0
 
-* Rails 5.0.0
+* Rails: 5.0.0
 
-* Postgres
+* Database: Postgres
 
-* Rake
+* Test: Rake
