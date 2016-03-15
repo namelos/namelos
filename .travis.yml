@@ -6,3 +6,5 @@ services:
 test:
   adapter: postgresql
   database: namelos_test
+before_script:
+  - psql -c 'create database namelos_test;' -U postgres
