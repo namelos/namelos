@@ -3,3 +3,6 @@ rvm:
   - "2.3.0"
 services:
   - postgresql
+test:
+  adapter: postgresql
+  database: travis_ci_test
