@@ -13,7 +13,7 @@ module ApplicationHelper
                 :autolink => true,
                 :lax_html_blocks => true }
 
-    markdown_to_html = Redcarpet::Markdown.new(highlighted, options)
+    markdown_to_html = Redcarpet::Markdown.new(text, options)
     markdown_to_html.render(text).html_safe
   end
 

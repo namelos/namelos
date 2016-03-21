@@ -1,0 +1,6 @@
+= link_to 'New Article', new_article_path
+
+.container
+  %ul.articles
+    - @articles.each do |article|
+      %li.article!= article.text
