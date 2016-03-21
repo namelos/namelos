@@ -31,6 +31,8 @@ gem 'sprockets-coffee-react'
 
 gem 'react-rails'
 
+gem 'haml-rails'
+
 # gem 'rails-controller-testing', '~> 0.1.1'
 
 # Use Capistrano for deployment
