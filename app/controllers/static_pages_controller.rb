@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+    @props = { name: 'react' }
   end
 
   def help
@@ -9,6 +10,5 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
-
   end
 end
