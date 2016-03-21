@@ -32,6 +32,9 @@ gem 'sprockets-coffee-react'
 gem 'react-rails'
 # change markup to haml
 gem 'haml-rails'
+# markdown parser
+gem 'redcarpet'
+gem 'coderay'
 
 # gem 'rails-controller-testing', '~> 0.1.1'
 

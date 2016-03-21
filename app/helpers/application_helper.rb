@@ -1,10 +1,23 @@
 module ApplicationHelper
-  def full_title(page_title = '')
-    base_title = 'Namelos'
-    if page_title.empty?
-      base_title
-    else
-      "#{page_title} | #{base_title}"
+  class Highlight < Redcarpet::Render::HTML
+    def block_code(code, lang)
+      CodeRay.scan(code, lang).div
     end
+  end
+
+  def markdown(text)
+    highlighted = Highlight.new(:filter_html => true, :hard_wrap => true)
+
+    options = { :fenced_code_blocks => true,
+                :no_intra_emphasis => true,
+                :autolink => true,
+                :lax_html_blocks => true }
+
+    markdown_to_html = Redcarpet::Markdown.new(highlighted, options)
+    markdown_to_html.render(text).html_safe
+  end
+
+  def log
+    'simple log'
   end
 end
