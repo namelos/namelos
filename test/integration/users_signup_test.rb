@@ -4,6 +4,7 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end
+
   test 'invalid signup information' do
     get signup_path
     assert_no_difference 'User.count' do
@@ -30,4 +31,5 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     end
     assert is_logged_in?
   end
+
 end
