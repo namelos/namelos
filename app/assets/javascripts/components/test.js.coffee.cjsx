@@ -1,4 +1,2 @@
-Test = ({ name }) =>
-    <div>hello {name}</div>
-
-window.Test = Test
+@Test = ({ name }) =>
+    <div>hey {name}</div>
