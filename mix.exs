@@ -17,7 +17,7 @@ defmodule Namelos.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {Namelos.Application, []},
-     extra_applications: [:logger, :runtime_tools, :comeonin]]
+     extra_applications: [:logger, :runtime_tools, :comeonin, :absinthe, :absinthe_plug]]
   end
 
   # Specifies which paths to compile per environment.
@@ -36,7 +36,9 @@ defmodule Namelos.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:comeonin, "~> 3.0"}]
+     {:comeonin, "~> 3.0"},
+     {:absinthe, "~> 1.2.0"},
+     {:absinthe_plug, "~> 1.2.3"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
