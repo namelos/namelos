@@ -1,0 +1,17 @@
+* tasks
+** libs
+*** front-end
+**** TODO add react
+**** TODO add apollo    
+*** back-end
+**** TODO add comeonin
+**** TODO add absinthe
+** build
+*** TODO build front end assets with webpack
+** deploy
+*** TODO deploy to heroku
+*** TODO add travis ci
+*** TODO deploy to heroku from travis
+* stories
+** authentication
+*** TODO add user service
