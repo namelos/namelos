@@ -19,6 +19,8 @@ defmodule Namelos.Web.Router do
     get "/", PageController, :index
   end
 
+  forward "/graphql", Absinthe.Plug, schema: Namelos.Web.Schema
+  forward "/graphiql", Absinthe.Plug.GraphiQL, schema: Namelos.Web.Schema
   # Other scopes may use custom stacks.
   # scope "/api", Namelos.Web do
   #   pipe_through :api
